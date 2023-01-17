@@ -1,0 +1,23 @@
+.card-layout {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.card-sm-layout {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.card-md-layout {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.card-lg-layout {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(3, 1fr);
+}
